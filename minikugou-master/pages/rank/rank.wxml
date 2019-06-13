@@ -1,0 +1,12 @@
+<!--pages/rank/rank.wxml-->
+<view class="rank-contant">
+  <view class="rank-item" wx:for="{{rank_list}}" wx:key="{{index}}" bindtap="gotourl" data-url="/pages/rank/rankInfo/rankInfo?infoid={{item.rankid}}">
+    <view class="rank-item-left">
+      <image src="{{item.img}}"></image>
+    </view>
+    <view class="rank-item-right">{{item.rankname}}</view>
+    <view class="rank-arrow">
+      <image src="/images/icons/arrow_icon.png"></image>
+    </view>
+  </view>
+</view>

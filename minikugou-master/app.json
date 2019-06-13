@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/rank/rankInfo/rankInfo",
+    "pages/player/player",
+    "pages/singer/singer",
+    "pages/singer/singerList/singerList",
+    "pages/singer/singerInfo/singerInfo",
+    "pages/plist/plist",
+    "pages/plist/plistInfo/plistInfo",
+    "pages/rank/rank",
+    "pages/search/search",
+    "pages/me/me"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2ca2f9",
+    "navigationBarTitleText": "酷狗音乐",
+    "navigationBarTextStyle":"white",
+    "navigationStyle":"default"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#2ca2f9",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "乐库",
+      "iconPath": "/images/icons/ku.png",
+      "selectedIconPath": "/images/icons/ku_select.png"
+    },{
+      "pagePath": "pages/rank/rank",
+      "text": "排行",
+      "iconPath": "/images/icons/rank.png",
+      "selectedIconPath": "/images/icons/rank_select.png"
+    },{
+      "pagePath": "pages/plist/plist",
+      "text": "歌单",
+      "iconPath": "/images/icons/plist.png",
+      "selectedIconPath": "/images/icons/plist_select.png"
+    },{
+      "pagePath": "pages/singer/singer",
+      "text": "歌手",
+      "iconPath": "/images/icons/singer.png",
+      "selectedIconPath": "/images/icons/singer_select.png"
+    }]
+  }
+}

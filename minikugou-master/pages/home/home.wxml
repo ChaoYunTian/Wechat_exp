@@ -1,0 +1,13 @@
+<swiper class="swiper-contant" autoplay="true" indicator-dots="true" indicator-active-color="#fff" indicator-color="#bdbdbd">
+  <swiper-item wx:for="{{banner_list}}" wx:key="{{item.index}}">
+    <image src="{{item.imgurl}}"></image>
+  </swiper-item>
+</swiper>
+<view class="list-contant">
+  <view class="list-item" wx:for="{{song_list}}" wx:key="{{index}}" data-url="/pages/player/player?hash={{item.hash}}" bindtap="gotourl">
+    <view class="list-item-left">{{item.filename}}</view>
+    <view class="list-item-right">
+      <image src="/images/icons/download_icon_2.png"></image>
+    </view>
+  </view>
+</view>

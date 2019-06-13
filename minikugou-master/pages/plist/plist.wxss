@@ -1,0 +1,46 @@
+/* pages/plist/plist.wxss */
+.plist-item{
+  display: table;
+  border-bottom: 2rpx solid #e5e5e5;
+  padding: 20rpx;
+  width: 100%;
+}
+.plist-item > view{
+  display: table-cell;
+  vertical-align: middle;
+}
+.plist-item-left{
+  width: 200rpx;
+}
+.plist-item-left image{
+  width: 192rpx;
+  height: 192rpx;
+}
+.plist-item-middle{
+  padding-left: 20rpx;
+  color: #333;
+}
+.plist-item-right{
+  width: 76rpx;
+  text-align: center;
+}
+.plist-item-right image{
+  width: 20rpx;
+  height: 36rpx;
+}
+.plist-status{
+  font-size: 28rpx;
+  padding-left: 30rpx;
+  position: relative;
+  color: #9b9b9b;
+  margin-top: 10rpx;
+}
+.plist-status:before{
+  position: absolute;
+  left: 0;
+  content: '';
+  background-image: url('/images/icons/icon_music.png');
+  width: 24rpx;
+  height: 24rpx;
+  background-size: 100% 100%;
+}

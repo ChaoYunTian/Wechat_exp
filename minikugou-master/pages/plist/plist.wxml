@@ -1,0 +1,15 @@
+<!--pages/plist/plist.wxml-->
+<view class="plist-contant" >
+  <view class="plist-item"wx:for="{{p_list}}" wx:key="{{index}}" bindtap="gotourl" data-url="/pages/plist/plistInfo/plistInfo?infoID={{item.specialid}}">
+    <view class="plist-item-left">
+      <image src="{{item.img}}"></image>
+    </view>
+    <view class="plist-item-middle">
+      <view class="">{{item.specialname}}</view>
+      <view class="plist-status">{{item.playcount}}</view>
+    </view>
+    <view class="plist-item-right">
+      <image src="/images/icons/arrow_icon.png"></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+<view class="goback">
+  <image src="/images/icons/goback.png" bindtap="gotoback"></image>
+   标题
+</view>
+<view class="list-item" wx:for="{{singer_list}}" wx:key="{{index}}" bindtap="" data-url="/pages/singer/singerInfo/singerInfo?singerid={{item.singerid}}">
+   <view class="list-left"> <image src="{{item.img}}"></image> </view>
+   <view class="list-right">{{item.singername}}</view>
+</view>

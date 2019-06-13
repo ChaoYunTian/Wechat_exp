@@ -1,0 +1,33 @@
+/* pages/rank/rank.wxss */
+.rank-item{
+  display: table;
+  height: 248rpx;
+  width: 100%;
+  border-bottom: 2rpx solid #e5e5e5;
+  color: #333;
+}
+.rank-item-left{
+  vertical-align: middle;
+  display: table-cell;
+  width: 192rpx;
+  padding-left: 20rpx;
+}
+.rank-item-left image{
+  width: 192rpx;
+  height: 192rpx;
+}
+.rank-item-right{
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 20rpx;
+}
+.rank-arrow{
+  width: 76rpx;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.rank-arrow image{
+  width: 20rpx;
+  height: 36rpx;
+}

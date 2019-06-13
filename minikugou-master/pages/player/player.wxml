@@ -1,0 +1,33 @@
+<view class="bg-overlay cover-view" style="background-image:url({{song.img}})"></view>
+<view class="bg-overlay cover-view-up"></view>
+<view class="player-top">
+  <image src="/images/icons/goback_1.png" bindtap="gotoback"></image>
+  {{song.song_name}}
+</view>
+<view class="sing-cover">
+  <image src="{{song.img}}"></image>
+</view>
+<view class="lrc-box">无歌词</view>
+<view class="play-status">
+  <view class="current-time">{{current_time}}</view>
+  <view class="play-slider">
+    <slider bindchanging="changeTime" bindchange="setTime" max="{{total_length}}" value='{{value}}'/>
+  </view>
+  <view class="total-time">{{total_time}}</view>
+</view>
+<view class="play-panel">
+  <view class="play-prev">
+    <image src="/images/icons/play_prev.png"></image>
+  </view>
+  <view class="play-play">
+    <block wx:if="{{isPlay}}">
+      <image bindtap="pauseAudio" src="/images/icons/play_pause.png"></image>
+    </block>
+    <block wx:else>
+      <image bindtap="playAudio" src="/images/icons/play_play.png"></image>
+    </block>
+  </view>
+  <view class="play-next">
+    <image src="/images/icons/play_next.png"></image>
+  </view>
+</view>

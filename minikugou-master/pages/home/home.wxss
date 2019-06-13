@@ -1,0 +1,38 @@
+/* pages/home/home.wxss */
+.swiper-contant{
+  height: 170px;
+  width: 100%;
+}
+.swiper-contant image{
+  width: 100%;
+  height: 100%;
+}
+.list-contant{
+  padding-left: 20rpx;
+}
+.list-item{
+  display: table;
+  width: 100%;
+  height: 146rpx;
+  border-bottom: 2rpx solid #e5e5e5;
+  color: #333;
+}
+.list-item-left{
+  display: table-cell;
+  vertical-align: middle;
+  width: calc(100% - 90rpx);
+}
+.list-item-right{
+  position: relative;
+  display: table-cell;
+  width: 90rpx;
+}
+.list-item-right image{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 38rpx;
+  height: 40rpx;
+  margin-left: -19rpx;
+  margin-top: -20rpx;
+}

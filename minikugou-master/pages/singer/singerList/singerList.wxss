@@ -1,0 +1,38 @@
+/* pages/singer/singerList/singerList.wxss */
+.goback{
+  position: relative;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  padding: 0 60rpx;
+  border-bottom: 8rpx solid #e5e5e5;
+}
+.goback image{
+  position: absolute;
+  top: 50%;
+  margin-top: -25rpx;
+  left: 30rpx;
+  width: 30rpx;
+  height: 50rpx;
+}
+.list-item{
+  display: table;
+  width: 100%;
+  color: #333;
+  padding: 20rpx 30rpx;
+  border-bottom: 2rpx solid #e5e5e5;
+}
+.list-item > view{
+  display: table-cell;
+  vertical-align: middle;
+}
+.list-left{
+  width: 130rpx;
+}
+.list-left image{
+  width: 122rpx;
+  height: 122rpx;
+}
+.list-right{
+  padding-left: 30rpx;
+}

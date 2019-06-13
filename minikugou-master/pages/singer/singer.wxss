@@ -1,0 +1,20 @@
+/* pages/singer/singer.wxss */
+.singer-content{
+  background-color: #fbfbfb;
+  border: 2rpx solid #e4e4e4;
+  border-radius: 8rpx;
+  margin: 40rpx 20rpx;
+  color: #333;
+}
+.singer-item{
+  padding: 20rpx;
+  border-top: 2rpx solid #e4e4e4;
+}
+.singer-item:first-of-type{
+  border-top: none;
+}
+.singer-item image{
+  width: 20rpx;
+  height: 36rpx;
+  float: right;
+}

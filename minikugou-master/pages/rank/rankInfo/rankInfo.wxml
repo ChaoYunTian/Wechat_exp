@@ -1,0 +1,18 @@
+<!--pages/rank/rankInfo/rankInfo.wxml-->
+
+<view class='rank-cover' style="background-image:url({{banner}})">
+  <view class="rank-top">
+    <view class='rank-title'>
+      <image src='/images/icons/goback_1.png' bindtap="gotoback"></image>
+      {{title}}
+    </view>
+  </view>
+  <view class="rank-text">最后更新时间：{{time}}</view>
+</view>
+<view class="list-content">
+  <view class="list-item" wx:for="{{song_list}}" wx:key="{{index}}" bindtap="gotourl"data-url="/pages/player/player?hash={{item.hash}}">
+     <view class="list-left"><text class="list-{{index}}">{{index+1}}</text></view>
+     <view class="list-middle">{{item.filename}}</view>
+     <view class="list-right"><image src="/images/icons/download_icon_2.png"></image></view>
+  </view>
+</view>

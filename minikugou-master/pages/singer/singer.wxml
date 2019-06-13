@@ -1,0 +1,38 @@
+<view class="singer-content">
+  <view class="singer-item" bindtap="gotourl" data-singerid="88">热门歌手
+    <image src="/images/icons/arrow_icon.png"></image>
+  </view>
+</view>
+<view class="singer-content">
+  <view class="singer-item"bindtap="gotourl" data-singerid="1">华语男歌手
+    <image src="/images/icons/arrow_icon.png"></image>
+  </view>
+  <view class="singer-item"bindtap="gotourl" data-singerid="2">华语女歌手
+    <image src="/images/icons/arrow_icon.png"></image>
+  </view>
+  <view class="singer-item"bindtap="gotourl" data-singerid="3">华语组合
+    <image src="/images/icons/arrow_icon.png"></image>
+  </view>
+</view>
+<view class="singer-content">
+   <view class="singer-item"bindtap="gotourl" data-singerid="4">日韩男歌手
+    <image src="/images/icons/arrow_icon.png"></image>
+  </view>
+  <view class="singer-item"bindtap="gotourl" data-singerid="5">日韩女歌手
+    <image src="/images/icons/arrow_icon.png"></image>
+  </view>
+  <view class="singer-item"bindtap="gotourl" data-singerid="6">日韩组合
+    <image src="/images/icons/arrow_icon.png"></image>
+  </view>
+</view>
+<view class="singer-content">
+   <view class="singer-item"bindtap="gotourl" data-singerid="7">欧美男歌手
+    <image src="/images/icons/arrow_icon.png"></image>
+  </view>
+  <view class="singer-item"bindtap="gotourl" data-singerid="8">欧美女歌手
+    <image src="/images/icons/arrow_icon.png"></image>
+  </view>
+  <view class="singer-item"bindtap="gotourl" data-singerid="9">欧美组合
+    <image src="/images/icons/arrow_icon.png"></image>
+  </view>
+</view>
